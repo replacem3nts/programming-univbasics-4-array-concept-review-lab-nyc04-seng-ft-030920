@@ -1,5 +1,6 @@
 def find_element_index(array, value_to_find)
   counter = 0
+  num_place = nil
   while array[counter] {
     if value_to_find == array[counter]
       num_place = counter
