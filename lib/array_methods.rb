@@ -11,7 +11,15 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.max()
+  counter = 0
+  num_place = array[0]
+  while array[counter] do
+    if array[counter ] == array[counter]
+      num_place = counter
+    end
+    counter += 1
+  end
+  return num_place
 end
 
 def find_min_value(array)
