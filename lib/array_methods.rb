@@ -1,11 +1,8 @@
 def find_element_index(array, value_to_find)
-  var n = 0
-  place_value = nil
-  while n < array.length; n++ {
-    if value_to_find == array[n]
-      place_value = n
-    end
-  print place_value
+  counter = 0
+  while array[counter] {
+    if value_to_find == array[counter]
+      
   }
 end
 
