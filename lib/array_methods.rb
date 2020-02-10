@@ -33,4 +33,4 @@ def find_min_value(array)
   end
   return num_place
 end
-end
+
